@@ -78,13 +78,13 @@ export const Navbar = ({ hide }: NavbarProps) => {
         </Link>
 
         {/* Nav Links (Desktop) */}
-        <ul className="list-none hidden sm:flex flex-row gap-8">
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {NAV_LINKS.map((link) => (
             <li
               key={link.id}
               className={cn(
               active === link.title ? "text-white" : "text-white",
-               "hover:text-purple-600 transition-colors duration-200 text-[16px] font-medium cursor-pointer"
+               "hover:text-purple-600 transition-colors duration-200 text-[20px] font-medium cursor-pointer"
                 )}
 
               onClick={() => !link.link && setActive(link.title)}

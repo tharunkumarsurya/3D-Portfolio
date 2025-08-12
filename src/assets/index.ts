@@ -10,6 +10,7 @@ import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import preview from "./preview.png";
 import web from "./web.png";
+import tharun from "./tharun.jpeg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -66,6 +67,7 @@ export {
   mobile,
   preview,
   web,
+  tharun,
   sql,
   kali,
   amazon,
