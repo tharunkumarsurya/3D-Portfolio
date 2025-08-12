@@ -17,7 +17,7 @@ const Computers = ({ isMobile }: ComputersProps) => {
     // Mesh
     <mesh>
       {/* Light */}
-      <hemisphereLight intensity={0.15} groundColor="black" />
+      <hemisphereLight intensity={3.15} groundColor="black" />
       <pointLight intensity={1} />
       <spotLight
         position={[-20, 50, 10]}
@@ -85,3 +85,4 @@ const ComputersCanvas = () => {
 };
 
 export default ComputersCanvas;
+
