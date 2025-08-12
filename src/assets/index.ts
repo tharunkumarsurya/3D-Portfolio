@@ -29,7 +29,7 @@ import githubs from "./tech/Githubs.png";
 import sql from "./tech/sql.png";
 import amazon from "./tech/amazon.png";
 import kali from "./tech/kali.png";
-import tharun from "./tech/tharun.jpeg"
+
 
 
 
@@ -56,6 +56,9 @@ import youtube from "./socials/youtube.svg";
 import whatsapp from "./socials/whatsapp.svg";
 import instagram from "./socials/instagram.svg";
 import facebook from "./socials/facebook.svg";
+
+
+import tharun from "./tharun/tharun.jpeg"
 
 export {
   backend,
