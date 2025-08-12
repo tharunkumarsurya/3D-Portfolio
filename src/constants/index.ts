@@ -268,7 +268,7 @@ export const PROJECTS = [
   {
     name: "Disney+ Clone",
     description:
-      "Disney+ Clone is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats.",
+      "Disney+ Clone is a popular streaming platform that lets users watch high-quality content in 4K and other formats.",
     tags: [
       {
         name: "react",
@@ -290,7 +290,7 @@ export const PROJECTS = [
   {
     name: "Book_Recommender",
     description:
-      "Book Recommender is a popular machine learning project used by many readers worldwide, offering personalized book suggestions based on preferences and reading behavior.",
+      "Book Recommender suggests personalized books based on user preferences and reading habits.",
     tags: [
       {
         name: "Python",
@@ -312,7 +312,7 @@ export const PROJECTS = [
   {
     name: "Shoppy",
     description:
-      "A highly personalized admin dashboard web app that lets users choose custom themes, toggle dark mode, and access various pages with a range of charts, widgets, and real-time data visualizations.",
+      "A personalized admin dashboard with custom themes, dark mode, multiple pages, and real-time charts.",
     tags: [
       {
         name: "react",
@@ -334,7 +334,7 @@ export const PROJECTS = [
   {
     name: "Phishing_URL Detector",
     description:
-      "Phishing URL Detector is a machine learning project that identifies malicious websites by analyzing URL features, helping protect users from phishing attacks, online threats, and data breaches.",
+      "Phishing URL Detector uses machine learning to spot malicious websites and protect users from phishing attacks.",
     tags: [
       {
         name: "Python",
@@ -356,7 +356,7 @@ export const PROJECTS = [
   {
     name: "Food_Analysis",
     description:
-      "Food Analysis is a machine learning project that detects and classifies different food items from images, helping in nutritional tracking, dietary planning, health monitoring, and calorie estimation.",
+      "Food Analysis uses machine learning to identify food items from images for nutrition tracking and calorie estimation.",
     tags: [
       {
         name: "Python",
@@ -378,7 +378,7 @@ export const PROJECTS = [
   {
     name: "Travel Advisor",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels, and attractions, which can be sorted by ratings, price, popularity, user reviews, distance filters, and cuisine type.",
+      "A web app to find nearby restaurants, hotels, and attractions, sortable by ratings, price, reviews, distance, and cuisine.",
     tags: [
       {
         name: "react",
