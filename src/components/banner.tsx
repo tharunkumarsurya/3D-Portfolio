@@ -63,7 +63,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
         </p>
       </div>
       <div className="flex items-center">
-        <button
+        {/* <button
           data-dismiss-target="#sticky-banner"
           onClick={handleBannerClose}
           type="button"
@@ -71,7 +71,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
         >
           <img src={close} alt="close" height={12} width={12} />
           <span className="sr-only">Close banner</span>
-        </button>
+        </button> */}
       </div>
     </div>
   );

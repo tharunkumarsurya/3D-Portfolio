@@ -368,7 +368,7 @@
 
 
 .scroll-track {
-  animation: marquee 20s linear infinite;
+  animation: marquee 15s linear infinite;
   width: max-content; /* So the container fits the cards */
 }
 
