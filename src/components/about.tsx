@@ -72,14 +72,14 @@ export const About = () => {
                 to innovative software and data-driven solutions, while continually learning and growing as a technology professional.
               </p>
 
-              {/* Image with train-like RGB border */}
+              {/* Image with train-like RGB border
               <div className="p-[4px] rounded-2xl animate-rgb-train">
                 <img
                   src="/src/assets/tharun/tharun.jpeg"
                   alt="My Profile"
                   className="w-[250px] h-[250px] object-cover rounded-2xl"
                 />
-              </div>
+              </div> */}
             </motion.div>
 
 
