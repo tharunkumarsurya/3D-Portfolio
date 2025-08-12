@@ -75,7 +75,7 @@ export const About = () => {
               {/* Image with train-like RGB border */}
               <div className="p-[4px] rounded-2xl animate-rgb-train">
                 <img
-                  src="/src/assets/tharun.jpeg"
+                  src="/src/assets/tech/tharun.jpeg"
                   alt="My Profile"
                   className="w-[250px] h-[250px] object-cover rounded-2xl"
                 />
