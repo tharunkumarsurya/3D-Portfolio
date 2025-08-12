@@ -48,20 +48,18 @@ const Banner = ({ hide, setHide }: BannerProps) => {
             />
             <span className="sr-only">Light bulb</span>
           </span>
-          <span>
-            If this <span className="text-green-500">3D-PORTFOLIO</span> if NOT Supported <br />
-            for Your <span className="text-red-500">ANDROID DEVICE</span> means go through <br />
-            The My 👉OLD Simple Portfolio👈 .{" "}
+          {/* <span>
+            Did you enjoy this portfolio? Take a look at my{" "}
             <Link
               to="https://tharunsurya.netlify.app/"
               target="_blank"
               rel="noreferrer noopener"
               className="inline font-medium text-blue-600 underline underline-offset-2 decoration-600 hover:no-underline"
             >
-              new portfolio
+              old portfolio
             </Link>
             .
-          </span>
+          </span> */}
         </p>
       </div>
       <div className="flex items-center">

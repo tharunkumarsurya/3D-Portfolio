@@ -60,7 +60,7 @@ const FeedbackCard = ({
 // Feedbacks
 export const Feedbacks = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper idName="Testimonials">
       <div className="mt-12 bg-black-100 rounded-[20px]">
         <div
           className={cn(

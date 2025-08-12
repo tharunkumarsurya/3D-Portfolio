@@ -16,13 +16,14 @@ type ServiceCardProps = {
 const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
   return (
     <Tilt
-      options={{
-        max: 45,
-        scale: 1,
-        speed: 450,
-      }}
-      className="xs:w-[250px] w-full"
-    >
+  options={{
+    max: 45,
+    scale: 1,
+    speed: 450,
+  }}
+  className="xs:w-[250px] w-[250px] flex-shrink-0"
+>
+
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -51,25 +52,49 @@ export const About = () => {
           <h2 className={styles.sectionHeadText}>Over<span className="text-purple-500">view.</span></h2>
         </motion.div>
 
+
+
         {/* Body */}
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          I am currently pursuing a Master of Computer Application (MCA) at East West Institute of Technology, Bengaluru, and have secured a SGPA of 8.9 in
-my third semester, with no Backlogs to date.<br />
-With a solid foundation in programming Language, software development, and analytical thinking, I am enthusiastic about data science and its
-real-world applications. I am proficient in python and modern web technologies, and I possess the ability to quickly grasp new tools and frameworks.
-Known for my effective communication, teamwork, and time management skills, I am enthusiastic about contributing to innovative software and data-
-driven solutions, while continually learning and growing as a technology professional.
-        </motion.p>
+                    <motion.div
+              variants={fadeIn("", "", 0.1, 1)}
+              className="flex flex-col md:flex-row items-center md:items-start gap-10"
+            >
+              {/* Text Content */}
+              <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">
+                I am currently pursuing a Master of Computer Application (MCA) at East West Institute of Technology, Bengaluru, 
+                and have secured a SGPA of 8.9 in my third semester, with no Backlogs to date.
+                <br /><br />
+                With a solid foundation in programming Language, software development, and analytical thinking, I am enthusiastic 
+                about data science and its real-world applications. I am proficient in python and modern web technologies, and I 
+                possess the ability to quickly grasp new tools and frameworks.
+                <br /><br />
+                Known for my effective communication, teamwork, and time management skills, I am enthusiastic about contributing 
+                to innovative software and data-driven solutions, while continually learning and growing as a technology professional.
+              </p>
+
+              {/* Image with train-like RGB border */}
+              <div className="p-[4px] rounded-2xl animate-rgb-train">
+                <img
+                  src="/src/assets/tharun.jpeg"
+                  alt="My Profile"
+                  className="w-[250px] h-[250px] object-cover rounded-2xl"
+                />
+              </div>
+            </motion.div>
+
+
+
+
 
         {/* Service Card */}
-        <div className="mt-20 flex flex-wrap gap-10">
-          {SERVICES.map((service, i) => (
-            <ServiceCard key={service.title} index={i} {...service} />
-          ))}
-        </div>
+        <div className="mt-20 overflow-hidden">
+  <div className="scroll-track flex gap-10">
+    {[...SERVICES, ...SERVICES].map((service, i) => (
+      <ServiceCard key={i} index={i} {...service} />
+    ))}
+  </div>
+</div>
+
       </>
     </SectionWrapper>
   );

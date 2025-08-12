@@ -70,10 +70,16 @@ export const NAV_LINKS = [
     link: null,
   },
   {
+    id: "Testimonials",
+    title: "Testimonials",
+    link: "",
+  },
+  {
     id: "Contact",
     title: "Contact",
     link: "",
   },
+  
 ] as const;
 
 // Services
@@ -262,7 +268,7 @@ export const PROJECTS = [
   {
     name: "Disney+ Clone",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Disney+ Clone is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats.",
     tags: [
       {
         name: "react",
@@ -278,35 +284,35 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "",
+    source_code_link: "https://github.com/tharunkumarsurya/Disneyplus-Clone.git",
     live_site_link: "",
   },
   {
-    name: "Golds Gym",
+    name: "Book_Recommender",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "Book Recommender is a popular machine learning project used by many readers worldwide, offering personalized book suggestions based on preferences and reading behavior.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Jupyter_notebook",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "HTML_CSS",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
-    source_code_link: "",
+    source_code_link: "https://github.com/tharunkumarsurya/ML-Book_recommender-system.git",
     live_site_link: "",
   },
   {
     name: "Shoppy",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "A highly personalized admin dashboard web app that lets users choose custom themes, toggle dark mode, and access various pages with a range of charts, widgets, and real-time data visualizations.",
     tags: [
       {
         name: "react",
@@ -326,53 +332,53 @@ export const PROJECTS = [
     live_site_link: "",
   },
   {
-    name: "TikTok Clone",
+    name: "Phishing_URL Detector",
     description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "Phishing URL Detector is a machine learning project that identifies malicious websites by analyzing URL features, helping protect users from phishing attacks, online threats, and data breaches.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Jupyter _notebook",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "HTML_CSS",
         color: "pink-text-gradient",
       },
     ],
     image: project4,
-    source_code_link: "",
+    source_code_link: "https://github.com/tharunkumarsurya/ML_Phishing_URL.git",
     live_site_link: "",
   },
   {
-    name: "Cryptoverse",
+    name: "Food_Analysis",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "Food Analysis is a machine learning project that detects and classifies different food items from images, helping in nutritional tracking, dietary planning, health monitoring, and calorie estimation.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Jupyter_notebook",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "HTML_CSS",
         color: "pink-text-gradient",
       },
     ],
     image: project5,
-    source_code_link: "",
+    source_code_link: "https://github.com/tharunkumarsurya/Food-Analysis.git",
     live_site_link: "",
   },
   {
     name: "Travel Advisor",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "Web application that enables you to view your nearby restaurants, hotels, and attractions, which can be sorted by ratings, price, popularity, user reviews, distance filters, and cuisine type.",
     tags: [
       {
         name: "react",
@@ -388,7 +394,7 @@ export const PROJECTS = [
       },
     ],
     image: project6,
-    source_code_link: "",
+    source_code_link: "https://github.com/tharunkumarsurya/Travel_Advisor.git",
     live_site_link: "",
   },
 ] as const;

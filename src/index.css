@@ -350,3 +350,94 @@
   -webkit-text-fill-color: transparent;
   animation: gradientMove 5s ease infinite;
 }
+
+
+
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+.scroll-track {
+  animation: marquee 20s linear infinite;
+  width: max-content; /* So the container fits the cards */
+}
+
+
+
+
+
+
+
+
+
+
+ /*  */
+
+
+/* @keyframes rgb-border {
+  0% { border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); }
+  100% { border-image-source: linear-gradient(405deg, red, orange, yellow, green, blue, indigo, violet); }
+}
+
+.animate-rgb-border {
+  background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 1400% 1400%;
+  animation: moveGradient 8s ease infinite;
+}
+
+@keyframes moveGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+} */
+/*  */
+
+
+
+
+/* @keyframes rgbMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 300% 0;
+  }
+}
+
+.animate-rgb-moving {
+  background: repeating-linear-gradient(
+    90deg,
+    red 0%,
+    red 33.33%,
+    green 33.33%,
+    green 66.66%,
+    blue 66.66%,
+    blue 100%
+  );
+  background-size: 300% 100%;
+  animation: rgbMove 2s linear infinite;
+} */
+/*  */
+
+
+@keyframes rgbTrain {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.animate-rgb-train {
+  background: linear-gradient(90deg, red, green, blue, red);
+  background-size: 300% 300%;
+  animation: rgbTrain 3s linear infinite;
+}
+/*  */

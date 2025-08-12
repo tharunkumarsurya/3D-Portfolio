@@ -12,7 +12,7 @@ import { styles } from "../styles";
 // Technologies
 export const Tech = () => {
   return (
-    <SectionWrapper idName="My">
+    <SectionWrapper idName="My Skills">
 
        <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What I Know</p>
