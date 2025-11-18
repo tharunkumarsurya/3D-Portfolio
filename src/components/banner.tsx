@@ -24,7 +24,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
   }, []);
 
   const handleBannerClose = () => {
-    setHide(true);
+    setHide(false);
     localStorage.setItem(BANNER_KEY, "1");
   };
 
