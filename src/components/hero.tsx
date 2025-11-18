@@ -67,7 +67,7 @@ export const Hero = () => {
             
 
             <a
-  href="/tharun's_Resume.pdf"
+  href="/Tharun Resume 2.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="animated-border"
